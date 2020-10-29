@@ -9,9 +9,10 @@
 /* Begin PBXBuildFile section */
 		0980F8F71F6F2563ACCB4EE3BED2A74A /* Pods-DBFlowTTSLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D0FB30E7577E990B25236FCBD8800D /* Pods-DBFlowTTSLib_Tests-dummy.m */; };
 		27D8F31389AE85B1FED1E9CB8ACA20FC /* Pods-DBFlowTTSLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FBDA3A15D20A4B4E9B2CE962CCEA70DB /* Pods-DBFlowTTSLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35A67A3B254AF20500759319 /* homeModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 35A67A39254AF20500759319 /* homeModel.h */; };
+		35A67A3C254AF20500759319 /* homeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A67A3A254AF20500759319 /* homeModel.m */; };
 		4CD7BE0ADC5024EDBCB23C480DEDD3FD /* DBFlowTTSLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E39650F52731E1AD22D49AA4065C0FF /* DBFlowTTSLib-dummy.m */; };
 		86F3D89796CC2201F3F851CAECAE941E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		DEAF2AF57B8858A58D6AFFE494635B59 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = B6044A340BF50339F33B0E75531C83DF /* ReplaceMe.m */; };
 		EA63FEC5957D14DD014AC44CE0B1E9EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		EBD059125B9825EE9027C22494F45B67 /* DBFlowTTSLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62874286F3C8A3A14164F9E1EA929D40 /* DBFlowTTSLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -27,24 +28,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A1780E69F2DC29D29B091DA17FEAC6B /* Pods_DBFlowTTSLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DBFlowTTSLib_Tests.framework; path = "Pods-DBFlowTTSLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A1780E69F2DC29D29B091DA17FEAC6B /* Pods_DBFlowTTSLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DBFlowTTSLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		35A67A39254AF20500759319 /* homeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = homeModel.h; sourceTree = "<group>"; };
+		35A67A3A254AF20500759319 /* homeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = homeModel.m; sourceTree = "<group>"; };
 		4769BB2EBAEAFD30EC183E27E062B9AD /* Pods-DBFlowTTSLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DBFlowTTSLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		495979B9BDD1B342521427A83C4AE216 /* DBFlowTTSLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DBFlowTTSLib.framework; path = DBFlowTTSLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		53FE50FC32CF0E12BA28EC61EDADE5B3 /* DBFlowTTSLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DBFlowTTSLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		5E9CBE67FB4587EDDBB0B885ECA88051 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		495979B9BDD1B342521427A83C4AE216 /* DBFlowTTSLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DBFlowTTSLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53FE50FC32CF0E12BA28EC61EDADE5B3 /* DBFlowTTSLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DBFlowTTSLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5E9CBE67FB4587EDDBB0B885ECA88051 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		62874286F3C8A3A14164F9E1EA929D40 /* DBFlowTTSLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DBFlowTTSLib-umbrella.h"; sourceTree = "<group>"; };
 		7326F7B0A61DDE88D9894758B4976091 /* Pods-DBFlowTTSLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DBFlowTTSLib_Tests-Info.plist"; sourceTree = "<group>"; };
 		7E39650F52731E1AD22D49AA4065C0FF /* DBFlowTTSLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DBFlowTTSLib-dummy.m"; sourceTree = "<group>"; };
 		88843AF968CDFD7A0253FAE8A07D65EF /* Pods-DBFlowTTSLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DBFlowTTSLib_Tests.modulemap"; sourceTree = "<group>"; };
 		94291EFBA5C10B8B9CD642A9BBC2E74E /* Pods-DBFlowTTSLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DBFlowTTSLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		98D0FB30E7577E990B25236FCBD8800D /* Pods-DBFlowTTSLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DBFlowTTSLib_Tests-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B6044A340BF50339F33B0E75531C83DF /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = DBFlowTTSLib/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BC9FDE81097AB2787F7ECEB5EA3B791A /* DBFlowTTSLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DBFlowTTSLib-prefix.pch"; sourceTree = "<group>"; };
 		C9FD187757BDB355060C49888258D8EF /* Pods-DBFlowTTSLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DBFlowTTSLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D0D485E1632A6CD4DB40CBEB3C7A5476 /* DBFlowTTSLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DBFlowTTSLib.xcconfig; sourceTree = "<group>"; };
-		D4D2187F264DD25B80918A284045C85D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D4D2187F264DD25B80918A284045C85D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D79B9B3E19F3FEFB336AC1797A5F3BA7 /* Pods-DBFlowTTSLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DBFlowTTSLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		F39D1DF8943398202D3F274ECCECF46E /* Pods-DBFlowTTSLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DBFlowTTSLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F9123E1B9F56371DB5ADE007FF11FB8B /* DBFlowTTSLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DBFlowTTSLib.modulemap; sourceTree = "<group>"; };
@@ -114,9 +116,10 @@
 		4FA4B71C750FE32D1B086345A223FB61 /* DBFlowTTSLib */ = {
 			isa = PBXGroup;
 			children = (
-				B6044A340BF50339F33B0E75531C83DF /* ReplaceMe.m */,
 				9513172B3D4EB1CEB559E9463510E106 /* Pod */,
 				2C3B71E4C2DC0BC8B093A52B5092F9E8 /* Support Files */,
+				35A67A39254AF20500759319 /* homeModel.h */,
+				35A67A3A254AF20500759319 /* homeModel.m */,
 			);
 			name = DBFlowTTSLib;
 			path = ../..;
@@ -192,6 +195,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBD059125B9825EE9027C22494F45B67 /* DBFlowTTSLib-umbrella.h in Headers */,
+				35A67A3B254AF20500759319 /* homeModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,8 +288,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35A67A3C254AF20500759319 /* homeModel.m in Sources */,
 				4CD7BE0ADC5024EDBCB23C480DEDD3FD /* DBFlowTTSLib-dummy.m in Sources */,
-				DEAF2AF57B8858A58D6AFFE494635B59 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,8 +399,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
