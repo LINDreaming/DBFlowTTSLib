@@ -1,0 +1,16 @@
+PODS:
+  - DBFlowTTSLib (0.1.0)
+
+DEPENDENCIES:
+  - DBFlowTTSLib (from `../`)
+
+EXTERNAL SOURCES:
+  DBFlowTTSLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DBFlowTTSLib: 5a0edaa0912adf2889886b20484c0b4e882e64a3
+
+PODFILE CHECKSUM: ae3bfea64f0423ab251a1266c9f5419e5c5ab3a7
+
+COCOAPODS: 1.8.3

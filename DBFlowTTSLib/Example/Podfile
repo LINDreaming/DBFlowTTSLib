@@ -1,0 +1,6 @@
+use_frameworks!
+target 'DBFlowTTSLib_Tests' do
+  pod 'DBFlowTTSLib', :path => '../'
+  
+  
+end
