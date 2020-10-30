@@ -1,42 +1,18 @@
-#
-# Be sure to run `pod lib lint DBFlowTTSLib.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
 
 Pod::Spec.new do |s|
   s.name             = 'DBFlowTTSLib'
   s.version          = '0.0.1'
-  s.summary          = 'A short description of DBFlowTTSLib.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.summary          = '语音合成库'
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/1477820229@qq.com/DBFlowTTSLib'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  标贝科技语音合成库，
+                     DESC
+  s.homepage         = 'https://github.com/LINDreaming/DBFlowTTSLib'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '1477820229@qq.com' => 'linxi@data-baker.com' }
-  s.source           = { :git => 'https://github.com/1477820229@qq.com/DBFlowTTSLib.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { '林喜' => 'linxisevenday@126.com' }
+  s.source           = { :git => 'https://github.com/LINDreaming/DBFlowTTSLib.git', :tag => s.version.to_s }
+  s.ios.deployment_target = '9.0'
+  s.source_files = 'DBFlowTTSLib/DBFlowTTSLib/Classes/**/*'
+  #s.vendored_frameworks   = 'DBLongTimeASRSDK/Classes/*.framework'
+  #s.dependency 'DBCommonLib'
 
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'DBFlowTTSLib/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'DBFlowTTSLib' => ['DBFlowTTSLib/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
